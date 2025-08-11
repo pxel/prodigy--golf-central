@@ -5,7 +5,7 @@
         <Slider />
         <LandingImageTextSplit />
         <SliderSmall />
-        <SplitThreeTileBanner />
+        <SplitThreeTileBanner rowReverse/>
         <ImageTextThreeTile />
         <LandingCta />
     </div>

@@ -2,20 +2,20 @@
     <section class="split-three-tile-banner my-[200px] md:my-[100px] overflow-hidden">
         <div class="container">
             <div class="grid-row">
-                <div class="col-span-6">
+                <div class="col-span-6" :class="rowReverse ? 'order-1' : 'order-1'">
                     <div class="heading mb-[25px]">
                         <h1 class="text-black uppercase font-amsterdam text-xl">
                             Title here
                         </h1>
                     </div>
                 </div>
-                <div class="col-span-3 md:col-span-6 md:mb-[40px] mb-[100px]">
+                <div class="col-span-3 md:col-span-6 md:mb-[40px] mb-[100px]" :class="rowReverse ? 'order-3' : 'order-2'">
                     <div class="image relative h-0 pb-[94%]">
                         <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                     </div>
                 </div>
-                <div class="col-span-3 md:col-span-6 md:mb-[40px] mb-[100px]">
-                    <div class="content h-full flex flex-col justify-center pl-[50px] md:pl-0">
+                <div class="col-span-3 md:col-span-6 md:mb-[40px] mb-[100px]" :class="rowReverse ? 'order-2' : 'order-3'">
+                    <div class="content h-full flex flex-col justify-center  md:pl-0" :class="rowReverse ? 'pl-0' : 'pl-[50px]'">
                         <span class="block text-black text-lg font-poppins mb-[10px]">Headline</span>
                         <p class="text-black font-poppins text-md max-w-[38ch] mb-[10px]">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
@@ -29,22 +29,22 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]">
+                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]" :class="rowReverse ? 'order-4' : 'order-4'">
                     <div class="image relative h-0 pb-[93%]">
                         <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                     </div>
                 </div>
-                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]">
+                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]" :class="rowReverse ? 'order-5' : 'order-5'">
                     <div class="image relative h-0 pb-[93%]">
                         <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                     </div>
                 </div>
-                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]">
+                <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]" :class="rowReverse ? 'order-6' : 'order-6'">
                     <div class="image relative h-0 pb-[93%]">
                         <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                     </div>
                 </div>
-                <div class="col-span-6">
+                <div class="col-span-6" :class="rowReverse ? 'order-7' : 'order-7'">
                     <div class="image relative w-full">
                         <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                         <div class="text relative z-10">
@@ -70,3 +70,12 @@
         </div>
     </section>
 </template>
+
+<script setup>
+defineProps({
+    rowReverse: {
+        type: Boolean,
+        default: false
+    }
+})
+</script>
