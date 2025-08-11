@@ -1,5 +1,5 @@
 <template>
-    <section class="two-tile py-10 md:pb-0 -mb-[100px]">
+    <section class="two-tile py-10 md:pb-0 -mb-[100px] md:mb-0">
         <div class="container">
             <div class="grid-row">
                 <div class="col-span-3 xs:col-span-6">
