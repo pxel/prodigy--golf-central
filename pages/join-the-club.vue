@@ -11,6 +11,7 @@
 </template>
 
 <script setup>
-import ImageTextSplit from '~/components/Landing/ImageTextSplit.vue';
-
+definePageMeta({
+  layout: 'default'
+})
 </script>
