@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-span-3 sm:col-span-6 sm:mb-[40px] mb-[100px] sm:order-2">
                     <div class="image relative h-0 pb-[94%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
+                        <img class="w-full h-full rounded-[20px] absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
                     </div>
                 </div>
                 <div class="col-span-3 sm:col-span-6 sm:mb-[40px] mb-[100px] sm:order-3">
@@ -32,12 +32,12 @@
                 </div>
                 <div class="col-span-3 sm:col-span-6 sm:mb-[40px] mb-[100px] sm:order-4">
                     <div class="image relative h-0 pb-[94%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
+                        <img class="w-full h-full rounded-[20px] absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
                     </div>
                 </div>
                 <div class="col-span-3 sm:col-span-6 sm:mb-[40px] mb-[100px] sm:order-6">
                     <div class="image relative h-0 pb-[94%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
+                        <img class="w-full h-full rounded-[20px] absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
                     </div>
                 </div>
                 <div class="col-span-3 sm:col-span-6 sm:mb-[40px] mb-[100px] sm:order-7">

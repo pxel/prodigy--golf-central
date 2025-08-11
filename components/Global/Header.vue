@@ -60,7 +60,7 @@
                     <div class="title mb-[10px]">
                         <span class="block text-dgray text-[30px] font-amsterdam uppercase">Tee Up</span>
                     </div>
-                    <div class="links flex flex-col gap-y-[10px]">
+                    <div class="links flex flex-col gap-y-[16px]">
                         <NuxtLink 
                             href="/game-on" 
                             class="block text-black text-md font-poppins font-light hover:text-dgray transition-colors duration-300"

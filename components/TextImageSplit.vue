@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-span-3 md:col-span-6" :class="rowReverse ? 'order-1' : 'order-2 md:order-1'">
                     <div class="image relative h-0 pb-[94%]">
-                        <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300" src="" alt="">
+                        <img class="w-full h-full absolute top-0 left-0 object-cover bg-gray-300 rounded-[20px]" src="" alt="">
                     </div>
                 </div>
             </div>
