@@ -3,7 +3,7 @@
         <Hero />
         <FeatureText />
         <Slider />
-        <ImageTextSplit />
+        <LandingImageTextSplit />
         <SliderSmall />
         <SplitThreeTileBanner />
         <ImageTextThreeTile />
