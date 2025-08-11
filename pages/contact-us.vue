@@ -1,11 +1,9 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <FeatureImageAlt />
         <Faq />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 

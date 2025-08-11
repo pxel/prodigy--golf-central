@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <FeatureText />
         <TextImageSplit />
@@ -9,7 +8,6 @@
         <LandingSixTile />
         <TextImageSplitAlt />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 

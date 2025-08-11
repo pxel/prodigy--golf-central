@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <BannerSplitAlt />
         <BannerImageText />
@@ -9,7 +8,6 @@
         <FeatureImage />
         <BannerSplitThreeTile />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 

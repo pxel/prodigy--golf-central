@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <TextImageSplit />
         <TextImageSplit rowReverse />
@@ -8,7 +7,6 @@
         <ImageTextThreeImage />
         <ImageTextThreeImage />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 

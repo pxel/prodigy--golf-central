@@ -1,12 +1,10 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <BannerFeatureTextThreeImage />
         <BannerFeatureTextThreeImage />
         <BannerFeatureTextThreeImage />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 

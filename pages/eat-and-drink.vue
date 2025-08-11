@@ -1,11 +1,9 @@
 <template>
     <div>
-        <Header />
         <Hero />
         <ImageTextThreeImage />
         <Slider />
         <LandingCta />
-        <Footer />
     </div>
 </template>
 
