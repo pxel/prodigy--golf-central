@@ -4,8 +4,8 @@
         <TextImageSplit />
         <TextImageSplit rowReverse />
         <SixImage />
-        <ImageTextThreeImage />
-        <ImageTextThreeImage />
+        <ImageTextThreeImage perks />
+        <ImageTextThreeImage perks />
         <LandingCta />
     </div>
 </template>

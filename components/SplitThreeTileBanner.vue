@@ -27,6 +27,11 @@
                             <li>Commodo consequat. Duis aute irure dolor in Reprehenderit in voluptate velit esse cillum </li>
                             <li>Dolore eu fugiat nulla pariatur. </li>
                         </ul>
+                        <div class="button">
+                            <button class="text-white text-base font-poppins font-bold bg-dgray h-[54px] px-[15px] pt-[14px] pb-[12px] min-w-[200px] rounded-full hover:bg-black transition-all duration-300">
+                                Learn more
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-span-2 xs:col-span-6 xs:mb-[20px] md:mb-[40px] mb-[110px]" :class="rowReverse ? 'order-4' : 'order-4'">

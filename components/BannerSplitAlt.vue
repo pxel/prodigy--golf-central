@@ -4,9 +4,9 @@
             <div class="grid-row">
                 <div class="col-span-6 md:order-1">
                     <div class="heading mb-[25px]">
-                        <h1 class="text-black uppercase font-amsterdam text-xl">
-                            Driving Range
-                        </h1>
+                        <span class="text-black uppercase font-amsterdam text-xl block">
+                            Title here
+                        </span>
                     </div>
                 </div>
                 <div class="col-span-6 mb-[100px] md:mb-[40px] md:order-2">
