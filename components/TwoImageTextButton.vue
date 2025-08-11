@@ -1,5 +1,5 @@
 <template>
-    <section class="two-image-text-button my-[200px] md:my-[100px] overflow-hidden">
+    <section class="two-image-text-button my-[200px] md:my-[100px]">
         <div class="container">
             <div class="grid-row">
                 <div class="col-span-6">
